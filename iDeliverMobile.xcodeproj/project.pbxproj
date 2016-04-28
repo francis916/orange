@@ -14,6 +14,8 @@
 		A9B267A01CCD0A1F00BBA4C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B2679E1CCD0A1F00BBA4C4 /* LaunchScreen.storyboard */; };
 		A9B267AB1CCD0A1F00BBA4C4 /* iDeliverMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B267AA1CCD0A1F00BBA4C4 /* iDeliverMobileTests.swift */; };
 		A9B267B61CCD0A1F00BBA4C4 /* iDeliverMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B267B51CCD0A1F00BBA4C4 /* iDeliverMobileUITests.swift */; };
+		A9B267C61CD24F5F00BBA4C4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B267C51CD24F5F00BBA4C4 /* MapKit.framework */; };
+		A9B267C81CD24F6700BBA4C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B267C71CD24F6700BBA4C4 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A9B267B11CCD0A1F00BBA4C4 /* iDeliverMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDeliverMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B267B51CCD0A1F00BBA4C4 /* iDeliverMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDeliverMobileUITests.swift; sourceTree = "<group>"; };
 		A9B267B71CCD0A1F00BBA4C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B267C51CD24F5F00BBA4C4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A9B267C71CD24F6700BBA4C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B267C81CD24F6700BBA4C4 /* CoreLocation.framework in Frameworks */,
+				A9B267C61CD24F5F00BBA4C4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A9B267941CCD0A1F00BBA4C4 /* iDeliverMobile */,
+				A9B267C41CD24EC700BBA4C4 /* Frameworks */,
 				A9B267A91CCD0A1F00BBA4C4 /* iDeliverMobileTests */,
 				A9B267B41CCD0A1F00BBA4C4 /* iDeliverMobileUITests */,
 				A9B267931CCD0A1F00BBA4C4 /* Products */,
@@ -123,6 +130,15 @@
 				A9B267B71CCD0A1F00BBA4C4 /* Info.plist */,
 			);
 			path = iDeliverMobileUITests;
+			sourceTree = "<group>";
+		};
+		A9B267C41CD24EC700BBA4C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B267C71CD24F6700BBA4C4 /* CoreLocation.framework */,
+				A9B267C51CD24F5F00BBA4C4 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -481,6 +497,7 @@
 				A9B267BC1CCD0A1F00BBA4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9B267BD1CCD0A1F00BBA4C4 /* Build configuration list for PBXNativeTarget "iDeliverMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +506,7 @@
 				A9B267BF1CCD0A1F00BBA4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9B267C01CCD0A1F00BBA4C4 /* Build configuration list for PBXNativeTarget "iDeliverMobileUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +515,7 @@
 				A9B267C21CCD0A1F00BBA4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
